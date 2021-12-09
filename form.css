@@ -1,0 +1,25 @@
+/**
+ * Styles for the add-observation.html page 
+ */
+* {
+  box-sizing: border-box;
+}
+
+.required {
+  font-weight: bolder;
+  color: red;
+}
+
+#desc,
+#notes,
+#pname,
+#pemail,
+#license {
+  width: 525px;
+}
+
+#locationLatDiv > small,
+#locationLongDiv > small {
+  color: red;
+  visibility: hidden;
+}
